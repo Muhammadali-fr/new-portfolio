@@ -8,9 +8,7 @@ const App = () => {
 
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path="/" element={<MainLayout/>}>
-        
-      </Route>
+      <Route path="/" element={<MainLayout/>}></Route>
     )
   )
 
