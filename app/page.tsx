@@ -1,10 +1,5 @@
-export default function About(){
+export default function Home(){
     return(
-        
-        <div className="w-full min-h-screen flex items-center justify-center">
-            <div className="w-[95%] h-[95vh] bg-blue-900 rounded-lg">
-
-            </div>
-        </div>
+        <h1>home</h1>
     )
 }
